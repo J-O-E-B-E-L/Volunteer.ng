@@ -1,0 +1,83 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+.container{
+    margin: auto;
+    min-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+    background: url('../img/elder.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+.primary-text{
+    color: #96e6b3;
+}
+.btn{
+    display: inline-block;
+    font-size: 20px;
+    background: #188038;
+    border-radius: 10px;
+    padding: 13px 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #96e6b3;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+/* Navbar */
+.navbar{ 
+    color: #fff;
+    overflow: auto;
+}
+#logo{
+    float: left;
+    padding: 20px;
+}
+#logo:hover{
+    color: #188038;
+}
+.navbar ul{
+    list-style: none;
+    float: right;
+}
+.navbar li{
+    float: left;
+}
+.navbar li a{
+    display: block;
+    padding: 15px 10px;
+    text-align: center;
+    margin: 40px;
+}
+.navbar li a:hover{
+    background-color: #188038;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#showcase{
+    margin: 350px;
+    text-align: center;
+    color: #f1fffa;
+    font-size: 30px;
+    line-height: 1.2em;
+}
